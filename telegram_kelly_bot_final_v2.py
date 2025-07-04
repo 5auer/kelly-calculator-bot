@@ -343,7 +343,9 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
 def main():
     """Função principal"""
     # SUBSTITUA PELO SEU TOKEN DO BOT
-    TOKEN = "SEU_TOKEN_AQUI"
+    import os
+
+TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
     
     # Criar aplicação
     application = Application.builder().token(TOKEN).build()
