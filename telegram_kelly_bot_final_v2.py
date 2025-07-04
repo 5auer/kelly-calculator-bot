@@ -343,7 +343,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
 def main():
     """Função principal"""
     # SUBSTITUA PELO SEU TOKEN DO BOT
-    TOKEN = "7011621003:AAFyJllQTNesTvI8CQoovkQQIn4f_e3VjGk"
+    TOKEN = "SEU_TOKEN_AQUI"
     
     # Criar aplicação
     application = Application.builder().token(TOKEN).build()
